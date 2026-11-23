@@ -1,4 +1,4 @@
-const WA='6285117031330',wa=t=>'https://wa.me/'+WA+'?text='+encodeURIComponent(t),$=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),rm=matchMedia('(prefers-reduced-motion:reduce)').matches,G=!!window.gsap&&!rm;
+const WA='628xxxxxxxxxx',wa=t=>'https://wa.me/'+WA+'?text='+encodeURIComponent(t),$=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),rm=matchMedia('(prefers-reduced-motion:reduce)').matches,G=!!window.gsap&&!rm;
 $$('[data-wa]').forEach(a=>{a.href=wa(a.dataset.wa)});
 $('#yr').textContent=new Date().getFullYear();
 const mqt=['DED','PBG','SLF','SNI','KDB','KLB','KDH','HYDRANT','CCTV','DWG','CTB','AUTOCAD'].map(x=>'<span class="px-5">'+x+'</span><i class="text-cy not-italic">◆</i>').join('');
